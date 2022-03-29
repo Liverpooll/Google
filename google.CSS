@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  }
+  
+div {
+  box-sizing : border-box; 
+  }
+#wrapper{
+    height : 100%;
+  }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size:14px;
+}
+.header a{
+  text-decoration: none;
+  color:black;
+}
+.header a:hover{
+  text-decoration: underline;
+}
+.header-left {
+  display: flex;
+  margin-left:15px;
+  margin-top: 10px;
+}
+.header-left a {
+  padding: 12px;
+}
+.header-right {
+  margin-top:-5px;
+  display: flex;
+  font-size: 13px;
+}
+.header-right a {
+  padding: 12px;
+  margin-top:13px;
+}
+.header-right p {
+  padding:13px;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.google-logo{ 
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size:100px;
+
+  }
+
+.google-logo img{
+  width:290px;
+}
+
+.search-bar {
+  margin-top: -180px;
+  position: relative;
+}
+
+.search-bar input{
+  width: 530px;
+  height: 40px;
+  border: 1px solid rgb(216, 215, 215);
+  border-radius: 30px;
+  font-size:15px;
+  padding-left: 50px;
+}
+
+.search-bar input:hover {
+  box-shadow: 1px 1px 5px 1px rgb(185, 185, 185);
+}
+.search-bar input:focus {
+  outline:none;
+}
+
+.two-button {
+  position: absolute;
+  top: 45%;
+  left: 43%;
+}
+
+.two-button button {
+  padding:8px 10px 8px 10px;
+  border: none;
+  cursor: pointer;
+}
+.button1 {
+  height: 34px;
+}
+.button2 {
+  margin-left:12px;
+}
+
+.two-button :hover {
+  border: 1px solid rgb(221, 215, 215);
+
+}
+
+
+.footer {
+  width: 100%;
+  position: absolute;  
+  bottom: 0;
+  left: 0;
+  height:100px;
+  background-color: rgb(240, 240, 240);
+}
+.footer-up {
+  width:100%;
+}
+.footer-up p {
+  margin-left: 30px;
+  color: grey
+}
+
+
+
+.footer-down {
+  display: flex;
+  justify-content: space-between;
+  color: grey
+
+}
+
+.down-left {
+  display: flex;
+  padding:5px;
+}
+
+.down-left a{
+  text-align: center;
+  padding-left:30px;
+  font-size: 15px;
+  text-decoration: none;
+  color: grey
+}
+
+.down-right {
+  display: flex;
+  padding:5px;
+}
+
+.down-right a{
+  padding-right:30px;
+  font-size: 15px;
+  text-decoration: none;
+  color: grey
+}
+a:hover{
+  text-decoration: underline;
+}
+
+hr {
+  border-color: rgb(245, 245, 245);
+}
+
+
+.icon-left {
+  position: absolute;
+  margin-left:17px;
+  margin-top:-33px;
+
+}
+.icon-right {
+  position: absolute;
+  display: flex;
+  margin-left:510px;
+  margin-top:-30px;
+}
+
+.icon-right :nth-child(2){
+  margin-left:19px;
+}
