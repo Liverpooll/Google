@@ -2,7 +2,39 @@ body {
   margin: 0;
   overflow: hidden;
   }
+
+  .list-group {
+    border: 1px solid black;
+    display: none;
+    color: grey;
+    position: absolute;
+    right:20px;
+    bottom:50px;
+    background-color: white;
+  }
+  .list-boundary {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    padding:1px;
+  }
+  .list-group a{
+    text-decoration: none;
+    color: grey;
+    padding:12px;
+  }
+
   
+  .show {
+    display: inline-block;
+  }
+
+
+.line {
+  border: 1px solid black;
+  width: 100%;
+}
+
 div {
   box-sizing : border-box; 
   }
@@ -34,6 +66,7 @@ div {
   margin-top:-5px;
   display: flex;
   font-size: 13px;
+  margin-right:10px;
 }
 .header-right a {
   padding: 12px;
@@ -164,9 +197,6 @@ a:hover{
   text-decoration: underline;
 }
 
-hr {
-  border-color: rgb(245, 245, 245);
-}
 
 
 .icon-left {
@@ -185,3 +215,15 @@ hr {
 .icon-right :nth-child(2){
   margin-left:19px;
 }
+
+.down-right p {
+  margin-right:30px;
+  margin-top: -2px;
+  cursor: pointer;
+}
+
+.down-right p:hover {
+  text-decoration: underline;
+}
+
+
