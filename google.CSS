@@ -3,6 +3,11 @@ body {
   overflow: hidden;
   }
 
+.dark {
+  background-color: rgb(56, 56, 56);
+  color: white;
+  
+}
   .list-group {
     border: 1px solid black;
     display: none;
@@ -24,6 +29,13 @@ body {
     padding:12px;
   }
 
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:220px;
+  }
   
   .show {
     display: inline-block;
@@ -76,41 +88,27 @@ div {
   padding:13px;
 }
 
-.main {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-.google-logo{ 
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  font-size:100px;
+
+.google-logo-img{
+  margin-top:-33px;
+  width:275px; 
 
   }
 
-.google-logo img{
-  width:290px;
-}
+
 
 .search-bar {
-  margin-top: -180px;
-  position: relative;
+  margin-top: 19px;
 }
 
 .search-bar input{
-  width: 530px;
-  height: 40px;
+  width: 540px;
+  height: 42px;
   border: 1px solid rgb(216, 215, 215);
   border-radius: 30px;
   font-size:15px;
-  padding-left: 50px;
+  padding-left: 45px;
+  margin-left:10px;
 }
 
 .search-bar input:hover {
@@ -121,9 +119,8 @@ div {
 }
 
 .two-button {
-  position: absolute;
-  top: 45%;
-  left: 43%;
+
+  margin-top:30px;
 }
 
 .two-button button {
@@ -198,17 +195,19 @@ a:hover{
 }
 
 
-
+.icon {
+  margin-left:10px;
+}
 .icon-left {
   position: absolute;
   margin-left:17px;
-  margin-top:-33px;
+  margin-top:-34px;
 
 }
 .icon-right {
   position: absolute;
   display: flex;
-  margin-left:510px;
+  margin-left:520px;
   margin-top:-30px;
 }
 

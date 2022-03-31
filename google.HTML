@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="google.css">
   <title>Document</title>
 </head>
-<body>
+<body class="background">
   <div id="wrapper">
   <div class="header">
     <div class="header-left">
@@ -22,7 +22,8 @@
   </div>
   </div>
   
-  <div class="main">
+
+    <div class="content">
   <div class="google-logo">
     <img class="google-logo-img"src="logo.png">
   </div> 
@@ -37,16 +38,17 @@
         <i class="fa-solid fa-keyboard" style="color: rgb(172, 172, 172);"></i>
         <i class="fa-solid fa-microphone" style="color: rgb(101, 84, 253)";></i>
         </div>
+      </div>
         </div>
     </form>
+    
+    <div class="two-button">
+      <button class="button1" >Google검색</button>
+      <button class="button2" type="button" onclick="location.href='https:/www.google.com/doodles'">I'm Feeling Lucky</button>
+    </div>
   </div>
-</div>
-
-<div class="two-button">
-  <button class="button1" >Google검색</button>
-  <button class="button2" type="button" onclick="location.href='https:/www.google.com/doodles'">I'm Feeling Lucky</button>
-</div>
-
+ 
+    
 
 
 <div class="footer">
@@ -77,7 +79,9 @@
   <a href="https://support.google.com/websearch/?p=ws_results_help&hl=ko&fg=1" class="list-group-item">검색 도움말</a>
   <a href="#" class="list-group-item">의견 보내기</a>
   <hr style="border:1px solid black;">
-  <p class="list-group-item" style="margin-left:12px; cursor: pointer;">어두운 테마: 사용 안함</p>
+  <p class="list-group-item" id="dark-mode"
+  style="margin-left:12px; cursor: pointer;">
+    어두운 테마: 사용 안함</p>
 </div>
 </div>
 
