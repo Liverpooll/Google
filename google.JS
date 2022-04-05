@@ -8,18 +8,20 @@ document.getElementById('settings').addEventListener('click', function(){
 // })
 
 document.getElementById('dark-mode').addEventListener('click', function(){
-  document.getElementsByClassName('background')[0].classList.toggle('dark');
+  document.getElementsByClassName('background')[0].classList.toggle('dark')
+  document.querySelector('.list-group').classList.remove('show');
 });
 
-// let count = 0;
+for (let i = 0; i < 5; i++) {
+document.getElementById('dark-mode').addEventListener('click', function(){
+  document.querySelectorAll('.header a')[i].classList.toggle('dark');
+});
+}
+for (let j = 0; j < 1; j++) {
+document.getElementById('dark-mode').addEventListener('click', function(){
+  document.querySelectorAll('p')[j].classList.toggle('dark');
+})};
 
-// $('.badge').on('click', function(){
-//   count++
-//   if (count % 2 == 1){
-//     document.getElementsByClassName('badge')[0].innerHTML = 'Light 🔄'
-//     $('.background').addClass('dark')
-//   } else {
-//     document.getElementsByClassName('badge')[0].innerHTML = 'Dark 🔄'
-//         $('.background').removeClass('dark')
-//   }
-// })
+document.getElementById('dark-mode').addEventListener('click', function(){
+  document.querySelector('.footer').classList.toggle('super-dark');
+})
