@@ -4,14 +4,11 @@ body {
   }
 
 .dark {
-  background-color: rgb(56, 56, 56);
+  background-color: rgb(53, 53, 53);
   color: white !important;
 }
 
-.super-dark {
-  background-color: black;
-  color: white !important
-}
+
   .list-group {
     border: 1px solid black;
     display: none;
@@ -61,7 +58,7 @@ div {
 .header {
   display: flex;
   justify-content: space-between;
-  font-size:14px;
+  font-size:16px;
 }
 .header a{
   text-decoration: none;
@@ -85,11 +82,13 @@ div {
   margin-right:10px;
 }
 .header-right a {
-  padding: 12px;
-  margin-top:13px;
+  padding: 30px 15px 10px 10px;
+  font-size:14px;
+
 }
 .header-right p {
-  padding:13px;
+  padding: 16px 25px 10px 10px;
+  font-size:14px;
 }
 
 
@@ -103,6 +102,7 @@ div {
 
 .search-bar {
   margin-top: 19px;
+  margin-left: -20px; 
 }
 
 .search-bar input{
@@ -128,15 +128,17 @@ div {
 }
 
 .two-button button {
-  padding:8px 10px 8px 10px;
   border: none;
-  cursor: pointer;
 }
 .button1 {
-  height: 34px;
+  padding: 9px 15px 9px 15px;
+  height: 38px;
+  cursor: pointer;
 }
 .button2 {
+  padding:13px 20px 10px 20px;
   margin-left:12px;
+  cursor: pointer;
 }
 
 .two-button :hover {
@@ -153,6 +155,8 @@ div {
   height:100px;
   background-color: rgb(240, 240, 240);
 }
+
+
 .footer-up {
   width:100%;
 }
@@ -166,7 +170,7 @@ div {
 .footer-down {
   display: flex;
   justify-content: space-between;
-  color: grey
+
 
 }
 
@@ -198,7 +202,6 @@ a:hover{
   text-decoration: underline;
 }
 
-
 .icon {
   margin-left:10px;
 }
@@ -229,4 +232,8 @@ a:hover{
   text-decoration: underline;
 }
 
-
+.super-dark {
+  background-color: black;
+  color: white !important;
+  border: 1px solid black !important;
+}
